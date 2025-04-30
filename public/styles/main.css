@@ -1,0 +1,170 @@
+
+html, body {
+  background-color: #BBE1FA;
+  margin:0;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+header {
+  background-color: #0F4C75;
+  width: 100%;
+  color: #BBE1FA;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.webName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5rem;
+  font-weight: 700;
+}
+
+.webName img {
+  margin-right: 16px;
+}
+
+.nav {
+  margin-right: 5rem;
+}
+
+.nav a {
+  margin-right: 36px;
+  text-decoration: none;
+  color: #BBE1FA;
+}
+
+#lastNav {
+  margin-right: 0px;
+}
+
+.heroPage {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.heroPage p  {
+  margin-left: 364px;
+  margin-right: 364px;
+}
+
+.heroPag > * {
+  margin-bottom: 25px;
+}
+
+.indexPhoto {
+  border-radius: 50%;
+  border: 5px solid #0F4C75;
+  object-fit: cover;
+  width:188px;
+  height: 188px;
+}
+
+.containerOfPosts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 50px;
+  margin-left: 115px;
+  margin-right: 115px;
+}
+
+
+.blogPost {
+  height: 221px;
+  width: 265px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  border-radius: 2%;
+  position: relative;
+}
+
+.titleOfPost {
+  position: absolute;
+  height:66px;
+  width: 265px;
+  background-color: #0F4C75;
+  color: #BBE1FA;
+  bottom: 0px;
+  border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomOfPage {
+  margin-left: 115px;
+  margin-right: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  
+  text-align: center;
+  border: 1px solid #0F4C75;
+  background-color: #3282B8;
+  color: #BBE1FA;
+  padding: 12px 8px;
+  border-radius: 5%;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+footer {
+  position: relative;
+  height: 264px;
+  background-color: #0F4C75;
+  color: #BBE1FA;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navFooter {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.navFooter p {
+  margin: 112px;
+  font-weight: 700;
+  color: #BBE1FA;
+}
+
+.navFooter a {
+  text-decoration: none;
+}
+
+.endFooter {
+  margin-right: 5rem;
+  text-decoration: none;
+  color: #BBE1FA;
+}

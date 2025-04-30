@@ -1,0 +1,33 @@
+.backgroundImage {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    background-color: white;
+}
+
+.content {
+    text-align: center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 364px;
+  margin-right: 364px;
+  white-space: pre-wrap; 
+}
+
+.changeButtons {
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.deleteBt {
+    color: #FABBBB;
+    border: 1px solid #750F0F;
+    background-color: #B83232;
+}

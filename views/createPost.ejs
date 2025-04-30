@@ -1,0 +1,20 @@
+<%- include("partials/header.ejs") %>
+<form action="/" method="POST" enctype="multipart/form-data">
+<div class="creatingPostsContainer" class="textBox">
+    <div id="titlePost">
+        <h3>Title</h3>
+        <input type="text" name="title" placeholder="Title of post...">
+    </div>
+    <div id="textPost" class="textBox">
+        <h3>Text</h3>
+        <textarea type="title" name="post" placeholder="Blog text..."></textarea>
+    </div>
+    <div class="uploadPhoto" style="margin-bottom: 50px;">
+        <h3>Upload photo cover</h3>
+        <input id="uploadFile" type="file" name="image">
+    </div>
+    <button type="submit" value="OK">Upload post</button> 
+</div>
+</form>
+
+<%- include("partials/footer.ejs") %>

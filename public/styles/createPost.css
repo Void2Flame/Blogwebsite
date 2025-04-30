@@ -1,0 +1,38 @@
+.creatingPostsContainer input, .creatingPostsContainer textarea {
+    width: 300px;
+    max-width: 680px;
+    padding: 20px;
+    border: 1px solid #b5b5b5;
+    outline: none;
+    border-radius: 8px;
+}
+
+textarea {
+    height: 300px;
+}
+
+.creatingPostsContainer input:focus, .creatingPostsContainer textarea:focus {
+    border: 1px solid #0F4C75;
+    box-shadow: 0 0 0 2px #0F4C75;
+}
+.creatingPostsContainer {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#uploadFile {
+
+    border: 1px solid #b5b5b5;
+    background-color: #F8F9FA;   
+}
+
+::file-selector-button {
+    text-align: center;
+  border: 1px solid #0F4C75;
+  background-color: #3282B8;
+  color: #BBE1FA;
+  padding: 8px 12px;
+  border-radius: 5%;
+  }

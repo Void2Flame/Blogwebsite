@@ -1,0 +1,37 @@
+
+<%- include("partials/header.ejs") %>
+
+<div class="heroPage">
+  <h2>Welcome to my blog Website!</h2>
+  <p>
+    I have created this blog website using Node.js, Express.js, EJS and CSS. The goal of this website was to teach me how to make dynamic websites which responds with users
+    interaction with EJS and can both take in information and output it with a server which is using Node.js & express.js. Feel free to reach out to me if you any quastions
+      about my workprocess with this website!
+  </p>
+  <img class="indexPhoto" src="/images/Own illustration.png">
+</div>
+<div class="bottomOfPage">
+  
+    
+  <h2>Blogs made</h2>
+  <div class="containerOfPosts">
+  <% if (locals.title) { %>
+    <% for (var i=0; i<title.length; i++) { %>
+      <a class="Test" href="blogPost/<%=[i]%>">
+        <div class="blogPost" style='background-image: url("/images for blogs/<%= picture[i]%>");'>
+          <div class="titleOfPost">
+            <%= title[i]; %>
+          </div>
+        </div>
+      </a>
+  <%} %>
+  <%}else {%>
+    <p>There are no posts</p>
+  <% } %>
+</div>
+</div>
+
+<form action="/create" method="GET">
+  <button type="create" value="Create post"> Create post</button>
+</form>
+<%- include("partials/footer.ejs") %>

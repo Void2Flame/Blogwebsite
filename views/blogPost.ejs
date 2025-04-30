@@ -1,0 +1,17 @@
+<%- include("partials/header.ejs") %>
+<div class="backgroundImage" style='background-image: url("/images for blogs/<%= image%>");'>
+
+</div>
+<div class="content">
+    <h2><%=title%></h2>
+    <p id><%=content  %></p>
+</div>
+<div class="changeButtons">
+<form action="">
+    <button>Edit</button>
+</form>
+<form action="/" method="PATCH">
+    <button type="patch" value="Remove post" class="deleteBt">Delete</button>
+</form>
+</div>
+<%- include("partials/footer.ejs") %>
